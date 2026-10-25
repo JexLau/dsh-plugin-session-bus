@@ -1,0 +1,6 @@
+- insert:
+    - id: session-bus
+      name: '@local/dsh-plugin-session-bus'
+      config:
+        rateLimitPerMinute: 30
+        promptSection: true

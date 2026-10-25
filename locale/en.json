@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Bus",
+    "description": "Direct session-to-session messaging for DeepSeek Harness: register a name, discover peers, send one direct message, and wake an idle session. No rooms and no group chat."
+  }
+}

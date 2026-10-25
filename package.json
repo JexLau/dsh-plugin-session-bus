@@ -1,0 +1,26 @@
+{
+  "name": "@local/dsh-plugin-session-bus",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Direct session-to-session messaging for DeepSeek Harness: every visible session is auto-discovered, agents may initiate collaboration without a human mention, unread messages are coalesced into one wake, and one direct message wakes an idle peer. No rooms and no group chat.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
